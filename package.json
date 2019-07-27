@@ -1,8 +1,9 @@
 {
-	"name": "fcc-api-projects-boilerplate",
-	"version": "0.0.1",
+	"name": "fcc-timestamp-project",
+	"version": "1.0.0",
 	"description": "An FCC Backend Challenge",
 	"main": "server.js",
+	"author": "Rohit Ambre, FCC",
 	"scripts": {
 		"start": "node server.js"
 	},
@@ -15,7 +16,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://githost.com/camper/repo.git"
+		"url": "https://github.com/rohit-ambre/fcc-timestamp.git"
 	},
 	"keywords": [
 		"node",
