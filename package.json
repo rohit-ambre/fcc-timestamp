@@ -5,12 +5,14 @@
 	"main": "server.js",
 	"author": "Rohit Ambre, FCC",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"test": "jest"
 	},
 	"dependencies": {
 		"cors": "^2.8.0",
 		"express": "^4.12.4",
 		"jest": "^24.8.0",
+		"jest-cli": "^24.8.0",
 		"supertest": "^4.0.2"
 	},
 	"engines": {
