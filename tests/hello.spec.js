@@ -18,6 +18,12 @@ describe("Timestamp", () => {
       .expect(200);
     expect(res.body.unix).toBe(1479600000000)
   })
+
+  it('invalid date', async () => {
+    const res = await get('/api/timestamp/2019-14-20')
+      .expect(200);
+    expect(res.body.error).toBe("Invalid Date")
+  })
 });
 
 
