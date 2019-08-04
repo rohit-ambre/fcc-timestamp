@@ -12,8 +12,17 @@ describe('Hello', () => {
 });
 
 
+describe("Timestamp", () => {
+  it('return timestamp if valid', async () => {
+    const res = await get('/api/timestamp/2016-11-20')
+      .expect(200);
+    expect(res.body.unix).toBe(1479600000000)
+  })
+});
+
+
 // a helper function to make a GET request
-function get(url){
+function get(url) {
   const httpRequest = request(app).get(url);
   // httpRequest.send(body);
   httpRequest.set('Accept', 'application/json')
