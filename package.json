@@ -6,7 +6,7 @@
 	"author": "Rohit Ambre, FCC",
 	"scripts": {
 		"start": "node server.js",
-		"test": "jest",
+		"test": "jest --detectOpenHandles --forceExit",
 		"dev": "nodemon server.js"
 	},
 	"dependencies": {
