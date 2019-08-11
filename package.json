@@ -14,7 +14,8 @@
 		"express": "^4.12.4",
 		"jest": "^24.8.0",
 		"jest-cli": "^24.8.0",
-		"supertest": "^4.0.2"
+		"supertest": "^4.0.2",
+		"codecov": "^3.5.0"
 	},
 	"engines": {
 		"node": "4.4.5"
