@@ -19,10 +19,6 @@
 	"engines": {
 		"node": "4.4.5"
 	},
-	"jest": {
-		"coverageDirectory": "./coverage/",
-		"collectCoverage": true
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/rohit-ambre/fcc-timestamp.git"
