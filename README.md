@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/rohit-ambre/fcc-timestamp.svg?branch=dev)](https://travis-ci.org/rohit-ambre/fcc-timestamp) 
+[![codecov](https://codecov.io/gh/rohit-ambre/fcc-timestamp/branch/dev/graph/badge.svg)](https://codecov.io/gh/rohit-ambre/fcc-timestamp)
 <br />
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
